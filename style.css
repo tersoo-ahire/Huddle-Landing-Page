@@ -267,7 +267,7 @@ a   {
     box-shadow: 1px 1px 9px 4px 3px rgba(220, 220, 220, 0.331);
 }
 
-.footer{
+footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -341,12 +341,14 @@ p.copy{
 }
 
 
+
+
 @keyframes try-it {
     from {color: black;}
     to {color: hsl(322, 100%, 66%); font-size: 22px;}   
 }
 
-@media screen and (min-width:569px) and (max-width:1000px) {
+@media screen and (min-width:563px) and (max-width:1000px) {
     .community{
         background-color: white;
         width: 80%;
@@ -356,14 +358,44 @@ p.copy{
         border-radius: 30px;
         text-align: center;
         left: 50%;
-        bottom: 15%;
+        bottom: 18%;
     }
     .top{
         padding-bottom: 20px;
     }
+
+    footer{
+        padding: 220px 50px 60px 50px;
+        margin: 0;
+    }
+
+    .first-column{
+        width: 30%;
+    }
+
+    .middle-columns{
+        width: 20%;
+        padding-left: 0px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .fourth-column{
+        width: 30%;
+        text-align: center;
+    }
+
+    .foot-icon-left{
+        width: 20%;
+    }
+    
+    .foot-icon-right{
+        width: 80%;
+    }
+    
 }
 
-@media screen and (max-width:569px) {
+@media screen and (max-width:563px) {
     
     #first-button{
         padding: 5px 6px 5px 6px;
@@ -508,13 +540,14 @@ p.copy{
         bottom: 17%;
     }
 
-    .footer{
+    footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 200px;
+        padding: 200px 30px 50px 30px;
     }
 
+   
     .first-column{
         width: 100%;
     }
@@ -522,7 +555,7 @@ p.copy{
     .middle-columns{
         width: 100%;
         padding-left: 0px;
-        margin-top: 30px;
+        margin-top: 5px;
     }
 
     .fourth-column{
