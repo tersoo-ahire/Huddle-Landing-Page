@@ -260,8 +260,9 @@ a   {
     border: 1px solid black;
     border-radius: 30px;
     text-align: center;
-    left: 21%;
-    bottom: 480px;
+    left: 50%;
+    bottom: 11%;
+    transform: translate(-50%, -50%);
     border: 5px solid rgba(220, 220, 220, 0.331);
     box-shadow: 1px 1px 9px 4px 3px rgba(220, 220, 220, 0.331);
 }
@@ -345,17 +346,20 @@ p.copy{
     to {color: hsl(322, 100%, 66%); font-size: 22px;}   
 }
 
-@media screen and (min-width:751) and (max-width:1000px) {
+@media screen and (min-width:569px) and (max-width:1000px) {
     .community{
         background-color: white;
-        width: 95%;
+        width: 80%;
         position: absolute;
-        padding: 60px 20px 40px 20px;
+        padding: 30px 20px 30px 20px;
         border: 5px solid rgba(220, 220, 220, 0.331);
         border-radius: 30px;
         text-align: center;
-        margin-right: 50%;
-        bottom: 950px;
+        left: 50%;
+        bottom: 15%;
+    }
+    .top{
+        padding-bottom: 20px;
     }
 }
 
@@ -441,7 +445,7 @@ p.copy{
     }
 
     .middle-first-right img{
-        width:300px;
+        width: 265px;
     }
     
     .middle-second{
@@ -458,7 +462,7 @@ p.copy{
     }
 
     .middle-second-left img{
-        width: 300px;
+        width: 265px;
     }
     
     .middle-second-right{
@@ -489,19 +493,19 @@ p.copy{
     }
 
     .middle-third-right img{
-        width: 300px;
+        width: 265px;
     }
 
     .community{
         background-color: white;
-        width: 95%;
+        width: 85%;
         position: absolute;
         padding: 60px 20px 40px 20px;
         border: 5px solid rgba(220, 220, 220, 0.331);
         border-radius: 30px;
         text-align: center;
-        left: 2%;
-        bottom: 950px;
+        left: 50%;
+        bottom: 17%;
     }
 
     .footer{
